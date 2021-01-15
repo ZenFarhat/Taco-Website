@@ -1,0 +1,41 @@
+.pricing-card {
+  display: flex;
+  flex: 30%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+
+  p {
+    padding: 2.5rem;
+    font-size: 2rem;
+    line-height: 2;
+  }
+}
+
+.price {
+  background-color: lightblue;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  padding: 1.5rem;
+}
+
+.pricing-btn {
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  padding: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.pricing-btn:focus {
+  outline: none;
+}
+
+.pricing-btn:active {
+  transform: scale(0.96);
+}

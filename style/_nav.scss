@@ -1,0 +1,29 @@
+nav {
+  background-color: $base-color;
+  display: flex;
+  padding: 2.5rem;
+}
+
+h1.logo {
+  display: flex;
+  flex: 50%;
+  font-size: 1.5;
+}
+
+.nav-list {
+  display: flex;
+  flex: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+  }
+}
+
+.nav-item {
+  margin: 0 40px;
+}

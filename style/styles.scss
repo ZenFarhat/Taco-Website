@@ -1,0 +1,26 @@
+$base-color: #ff7063;
+
+@import "global";
+.section {
+  padding: 2.5rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header {
+  font-size: 5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+@import "nav";
+@import "hero";
+@import "about";
+@import "testimonials";
+@import "prices";
+@import "contact";
+@import "footer";
+@import "mediaqueries";

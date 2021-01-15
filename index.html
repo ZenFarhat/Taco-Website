@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style/styles.css" />
+    <title>Taco Eats</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">TACO EATS</h1>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#about">About Us</a></li>
+        <li class="nav-item"><a href="#testimonials">Testimonals</a></li>
+        <li class="nav-item"><a href="#prices">Pricing</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero section">
+      <div class="hero-text">
+        <h1>Taco Eats</h1>
+        <h2>Tacos at your doorstep.</h2>
+        <button class="buy-now"><a href="#pricing">Buy Now</a></button>
+      </div>
+      <div class="hero-img">
+        <img src="img/tacopng.png" alt="taco-img" />
+      </div>
+    </section>
+    <hr />
+    <section class="about section" id="about">
+      <div class="about-img"><i class="fas fa-truck"></i></div>
+      <div class="about-text">
+        <h2>Who are we?</h2>
+        <p>
+          Taco Eats. <br />
+          We deliver the finest and freshest tacos in your local area. Check out
+          our subscription options down below!
+        </p>
+      </div>
+    </section>
+    <hr />
+    <section class="testimonials section" id="testimonials">
+      <h1 class="header">What do our customers say?</h1>
+      <div class="testimonials-container container">
+        <div class="testimonial-card">
+          <i class="fas fa-male testimonial-icon"></i>
+          <p class="testimonial-quote">
+            "The purchase process could not have been easier"
+          </p>
+          <p class="testimonial-author">-Steve Stevenson</p>
+        </div>
+        <div class="testimonial-card">
+          <i class="fas fa-female testimonial-icon"></i>
+          <p class="testimonial-quote">
+            "I always get mine on time, they are delicious!"
+          </p>
+          <p class="testimonial-author">-Jess Jessicason</p>
+        </div>
+        <div class="testimonial-card">
+          <i class="fas fa-female testimonial-icon"></i>
+          <p class="testimonial-quote">
+            "I think other businesses should use their delivery courierr"
+          </p>
+          <p class="testimonial-author">-Sam Samson</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="pricing section" id="pricing">
+      <h1 class="header">Our subscription offers</h1>
+      <div class="pricing-cards-container container">
+        <div class="pricing-card">
+          <div class="price">
+            <h3>30$ p/mo</h3>
+          </div>
+          <p>Monthly Tacos</p>
+          <button class="pricing-btn">Buy Now</button>
+        </div>
+        <div class="pricing-card">
+          <div class="price">
+            <h3>25$ p/mo</h3>
+          </div>
+          <p>Weekly Tacos</p>
+          <button class="pricing-btn">Buy Now</button>
+        </div>
+        <div class="pricing-card">
+          <div class="price">
+            <h3>25$ p/mo</h3>
+          </div>
+          <p>Daily Tacos</p>
+          <button class="pricing-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="contact section" id="contact">
+      <h1 class="header">Talk to us</h1>
+      <h2>Need any information? Talk to us!</h2>
+      <form>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email.." required />
+        <textarea
+          class="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Your message.."
+        ></textarea>
+        <input class="submit-btn" type="button" value="submit" />
+      </form>
+    </section>
+    <footer>
+      <h2>Copyright Taco Eats 2020</h2>
+    </footer>
+  </body>
+</html>

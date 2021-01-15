@@ -1,0 +1,41 @@
+.contact {
+  h2 {
+    text-align: center;
+    padding: 2rem;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: $base-color;
+  padding: 2.5rem;
+  input,
+  .textarea,
+  .submit-btn {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 90%;
+    font-family: inherit;
+    font-size: 1.5rem;
+  }
+
+  border-radius: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.textarea {
+  height: 100px;
+}
+.textarea:focus {
+  outline: none;
+}
