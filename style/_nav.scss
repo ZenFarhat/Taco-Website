@@ -7,7 +7,9 @@ nav {
 h1.logo {
   display: flex;
   flex: 50%;
-  font-size: 1.5;
+  font-size: 2.5rem;
+  font-family: $sigmar;
+  font-weight: 100;
 }
 
 .nav-list {

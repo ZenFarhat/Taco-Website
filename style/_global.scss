@@ -4,7 +4,30 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: black;
+}
+
+h1 {
+  font-family: $sigmar;
+  font-weight: lighter;
+  color: $taco-green;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+p,
+h2,
+a {
+  font-family: $josefin;
 }
