@@ -4,13 +4,23 @@
   }
 
   .header {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
   }
 
+  // Navbar
   .nav-list {
     display: none;
   }
 
+  h1.logo {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // Hero
   .hero {
     h1 {
       font-size: 4rem;
@@ -34,12 +44,31 @@
     }
   }
 
+  // About
+
+  .about {
+    h2 {
+      line-height: 1.5;
+      padding: 2rem;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
   .about-img {
     font-size: 10rem;
   }
 
+  // Contact
+  .contact {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
   form {
     padding: 1rem;
-    width: 90%;
+    width: 95%;
   }
 }
