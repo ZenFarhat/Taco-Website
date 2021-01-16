@@ -449,6 +449,19 @@ h2 {
   }
   .about-img {
     font-size: 10rem;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .about-text {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .testimonial-card {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
   }
   .contact h2 {
     font-size: 2rem;
